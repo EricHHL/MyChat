@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="left"
+    android:layout_marginBottom="2dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginTop="2dp"
+    android:foregroundGravity="right"
+    android:gravity="left"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/bolha"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:layout_marginRight="48dp"
+        android:background="@drawable/bolha_mensagem2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtRemetente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:gravity="start"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="4dp"
+            android:textSize="12sp"
+            tools:text="Remetente" />
+
+        <TextView
+            android:id="@+id/txtLstMensagem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            tools:text="Mensagem de testeMensagem de testeMensagem de testeMensagem de testeMensagem de testeMensagem de testeMensagem de testeMensagem de testeMensagem de testeMensagem de testeMensagem de testeMensagem de testeMensagem de testeMensagem de testeMensagem de testeMensagem de testeMensagem de testeMensagem de testeMensagem de testeMensagem de testeMensagem de testeMensagem de testeMensagem de testeMensagem de testeMensagem de testeMensagem de testeMensagem de testeMensagem de teste" />
+    </LinearLayout>
+
+</FrameLayout>
